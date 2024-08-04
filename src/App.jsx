@@ -10,7 +10,7 @@ const App = () => {
 
   return (
     <>
-      <h1>tasks List</h1>
+      <h1>ingredients List</h1>
       <ul>
         {recipe.map((ingredient, index) => (
           <li key={index} className={ingredient.available ? 'completed' : 'not-completed'}>
